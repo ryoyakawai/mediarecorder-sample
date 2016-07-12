@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>MediaStream Recording</title>
+    <style>
+    video { width:300px; }
+    </style>
+  </head>
+  <body>
+    <div id="warningArea"></div>
+    <div id="mainContainer">
+      <div class="buttons">
+        <button id="toggle-record">Start Recording</button>
+        <button id="playback" disabled>Playback</button>
+        <button id="download" disabled>Download</button>
+      </div>
+    </div>
+    <div class="div-video">
+      <video id="video" autoplay muted></video>
+      <video id="video-record" autoplay loop></video>
+    </div>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
